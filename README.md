@@ -11,7 +11,9 @@ Steps:
 * Make a plot.
 
 ## Challenges
-One of the biggest challenges was working with the data, all 489657 points of it. Step 1 initialy took 1:05min per 1000 calls, but I was able to reduce it to 0:53min per 1000 calls. After I did that I was able to reduce it to a glorious 0:06min per 1000 calls, which saved me hours of computing time. I think I did this by abstracting some dataframe cleaning, something to do with string concatination, and some conditional logic - but I cannot remember.
+One of the biggest challenges was working with the data, all 489657 points of it. Step 1 initialy took 1:05min per 1000 calls, but I was able to reduce it to 0:53min per 1000 calls. After I did that I was able to reduce it to a glorious 0:06min per 1000 calls, which saved me hours of computing time. I think I did this by abstracting some dataframe cleaning, something to do with string concatination, and some conditional logic - but I cannot remember. 
 
-## Notes
-I have removed the data from this project since it was not given to me to share. I can't find the charts, but I remember that we determined that EMS services are slightly corrilated with rainfall, having a small increase in speed the more it is raining outside. Our theory is that there are less people on the road to impede the ambulance, giving the driver a more efficient time.
+We also had only 3 days from start to finish to complete the analysis.
+
+## Notes & findings & theory
+I have removed the data from this project since it was not given to me to share. I can't find the charts, but I remember that we determined that EMS services are slightly corrilated with rainfall, having a small decrease in response time the more it is raining outside. We did not have access to trip distance data, but assuming the 100's of calls each day represent a decent sample our theory is that there are less people on the road to impede the ambulance, giving the driver a more efficient time. This analysis is slightly flawed of course, but its the best we could do.
